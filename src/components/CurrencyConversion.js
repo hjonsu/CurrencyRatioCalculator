@@ -142,8 +142,14 @@ export default function CurrencyConversion() {
             Gold to Crystal Ratio:
             <br />
             {conversionRatio(currencyCheck.goldToCrystal)}{" "}
-            <img src="/gold.png" width="15px" height="15px" /> : 1.00{" "}
-            <img src="/crystals.png" width="15px" height="15px" />
+            <img src="/gold.png" width="15px" height="15px" alt="gold-image" />{" "}
+            : 1.00{" "}
+            <img
+              src="/crystals.png"
+              width="15px"
+              height="15px"
+              alt="crystal-image"
+            />
             <br />
             <br />
             Market Price to Crystal Ratio:
@@ -153,8 +159,14 @@ export default function CurrencyConversion() {
               currencyCheck.crystalPrice,
               currencyCheck.itemQuantity
             )}{" "}
-            <img src="/gold.png" width="15px" height="15px" /> : 1.00{" "}
-            <img src="/crystals.png" width="15px" height="15px" />
+            <img src="/gold.png" width="15px" height="15px" alt="gold-image" />{" "}
+            : 1.00{" "}
+            <img
+              src="/crystals.png"
+              width="15px"
+              height="15px"
+              alt="crystal-image"
+            />
           </div>
         </form>
       </div>

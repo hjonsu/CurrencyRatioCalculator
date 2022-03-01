@@ -14,7 +14,7 @@ export default function Tooltip(props) {
         }
         position="right center"
       >
-        <img src={image} height={height} width={width} />
+        <img src={image} height={height} width={width} alt="helper-image" />
       </Popup>
     </sup>
   );
