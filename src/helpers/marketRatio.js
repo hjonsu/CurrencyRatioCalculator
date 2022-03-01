@@ -1,3 +1,5 @@
 export default function marketRatio(marketPrice, crystalPrice, quantity) {
-  return ((marketPrice * quantity) / crystalPrice).toFixed(2);
+  return crystalPrice !== 0
+    ? ((marketPrice * quantity) / crystalPrice).toFixed(2)
+    : "1.00";
 }
