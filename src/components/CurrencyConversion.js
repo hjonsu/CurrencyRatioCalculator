@@ -54,7 +54,7 @@ export default function CurrencyConversion() {
         <form
           noValidate
           autoComplete="off"
-          className="form-currency-ratio"
+          className="form"
           onSubmit={(e) => {
             e.preventDefault();
           }}
