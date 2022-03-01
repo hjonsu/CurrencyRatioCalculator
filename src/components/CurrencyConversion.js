@@ -62,12 +62,7 @@ export default function CurrencyConversion() {
           <div className="form-currency-ratio">
             <label htmlFor="gold-to-crystal" className="labels">
               Exchange Rate
-              <Tooltip
-                image="/ExchangeRate.png"
-                height="200px"
-                width="400px"
-                alt="exchange-rate-help"
-              />
+              <Tooltip image="/ExchangeRate.png" height="200px" width="400px" />
             </label>
             <input
               type="number"
@@ -83,12 +78,7 @@ export default function CurrencyConversion() {
           <div className="form-currency-ratio">
             <label htmlFor="market-price" className="labels">
               Market Price
-              <Tooltip
-                image="/MarketPrices.png"
-                height="100px"
-                width="550px"
-                alt="Market-price-help"
-              />
+              <Tooltip image="/MarketPrices.png" height="100px" width="550px" />
             </label>
             <input
               type="number"
@@ -105,12 +95,7 @@ export default function CurrencyConversion() {
           <div className="form-currency-ratio">
             <label htmlFor="crystal-price" className="labels">
               Crystal Price
-              <Tooltip
-                image="/CrystalPrice.png"
-                height="230px"
-                width="550px"
-                alt="crystal-help"
-              />
+              <Tooltip image="/CrystalPrice.png" height="230px" width="550px" />
             </label>
             <input
               type="number"
@@ -157,14 +142,8 @@ export default function CurrencyConversion() {
             Gold to Crystal Ratio:
             <br />
             {conversionRatio(currencyCheck.goldToCrystal)}{" "}
-            <img src="/gold.png" width="15px" height="15px" alt="gold-image" />{" "}
-            : 1.00{" "}
-            <img
-              src="/crystals.png"
-              width="15px"
-              height="15px"
-              alt="crystal-image"
-            />
+            <img src="/gold.png" width="15px" height="15px" alt="gold" /> : 1.00{" "}
+            <img src="/crystals.png" width="15px" height="15px" alt="crystal" />
             <br />
             <br />
             Market Price to Crystal Ratio:
@@ -174,14 +153,8 @@ export default function CurrencyConversion() {
               currencyCheck.crystalPrice,
               currencyCheck.itemQuantity
             )}{" "}
-            <img src="/gold.png" width="15px" height="15px" alt="gold-image" />{" "}
-            : 1.00{" "}
-            <img
-              src="/crystals.png"
-              width="15px"
-              height="15px"
-              alt="crystal-image"
-            />
+            <img src="/gold.png" width="15px" height="15px" alt="gold" /> : 1.00{" "}
+            <img src="/crystals.png" width="15px" height="15px" alt="crystal" />
           </div>
         </form>
       </div>
