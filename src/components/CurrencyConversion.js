@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import crystalConverter from "../helpers/crystalToGoldRatios";
 import conversionRatio from "../helpers/conversionRatio";
 import marketRatio from "../helpers/marketRatio";
-import { Button, TextField } from "@mui/material";
 
 import "../styles/styles.css";
 
