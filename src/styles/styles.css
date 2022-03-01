@@ -34,6 +34,17 @@
   border-radius: 5px;
 }
 
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(109, 177, 241);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
