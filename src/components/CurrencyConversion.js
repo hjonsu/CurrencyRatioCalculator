@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import crystalConverter from "../helpers/crystalToGoldRatios";
 import conversionRatio from "../helpers/conversionRatio";
 import marketRatio from "../helpers/marketRatio";
-
+import Tooltip from "./ToolTip";
 import "../styles/styles.css";
 
 export default function CurrencyConversion() {
@@ -61,7 +61,8 @@ export default function CurrencyConversion() {
         >
           <div className="form-currency-ratio">
             <label htmlFor="gold-to-crystal" className="labels">
-              Exchange Rate:{" "}
+              Exchange Rate
+              <Tooltip image="/ExchangeRate.png" height="200px" width="400px" />
             </label>
             <input
               type="number"
@@ -76,7 +77,8 @@ export default function CurrencyConversion() {
           </div>
           <div className="form-currency-ratio">
             <label htmlFor="market-price" className="labels">
-              Market Price:{" "}
+              Market Price
+              <Tooltip image="/MarketPrices.png" height="100px" width="550px" />
             </label>
             <input
               type="number"
@@ -92,7 +94,8 @@ export default function CurrencyConversion() {
 
           <div className="form-currency-ratio">
             <label htmlFor="crystal-price" className="labels">
-              Crystal Price:
+              Crystal Price
+              <Tooltip image="/CrystalPrice.png" height="230px" width="550px" />
             </label>
             <input
               type="number"
@@ -109,7 +112,8 @@ export default function CurrencyConversion() {
             <label htmlFor="quantity" className="labels">
               Quantity <br />
               <span style={{ fontSize: "0.8em", fontStyle: "italic" }}>
-                (Mari's Secret Shop):
+                (Mari's Secret Shop)
+                {/* <Tooltip image="/MarketPrices.png" height="100px" width="550px" /> */}{" "}
               </span>
             </label>
             <input
@@ -138,8 +142,8 @@ export default function CurrencyConversion() {
             Gold to Crystal Ratio:
             <br />
             {conversionRatio(currencyCheck.goldToCrystal)}{" "}
-            <img src="/gold.png" width="15px" height="15px" /> : 1.00{" "}
-            <img src="/crystals.png" width="15px" height="15px" />
+            <img src="/gold.png" width="15px" height="15px" alt="gold" /> : 1.00{" "}
+            <img src="/crystals.png" width="15px" height="15px" alt="crystal" />
             <br />
             <br />
             Market Price to Crystal Ratio:
@@ -149,8 +153,8 @@ export default function CurrencyConversion() {
               currencyCheck.crystalPrice,
               currencyCheck.itemQuantity
             )}{" "}
-            <img src="/gold.png" width="15px" height="15px" /> : 1.00{" "}
-            <img src="/crystals.png" width="15px" height="15px" />
+            <img src="/gold.png" width="15px" height="15px" alt="gold" /> : 1.00{" "}
+            <img src="/crystals.png" width="15px" height="15px" alt="crystal" />
           </div>
         </form>
       </div>

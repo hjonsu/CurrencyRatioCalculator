@@ -53,6 +53,17 @@
   text-decoration: none;
 }
 
+.tooltip-button {
+  background-color: transparent;
+  border: none;
+  font-size: .7em;
+  transition: .2s ease-in-out;
+}
+
+.tooltip-button:hover {
+  color: #00f5fd;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
