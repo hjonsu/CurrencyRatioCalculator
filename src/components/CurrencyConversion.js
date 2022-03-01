@@ -62,7 +62,12 @@ export default function CurrencyConversion() {
           <div className="form-currency-ratio">
             <label htmlFor="gold-to-crystal" className="labels">
               Exchange Rate
-              <Tooltip image="/ExchangeRate.png" height="200px" width="400px" />
+              <Tooltip
+                image="/ExchangeRate.png"
+                height="200px"
+                width="400px"
+                alt="exchange-rate-help"
+              />
             </label>
             <input
               type="number"
@@ -78,7 +83,12 @@ export default function CurrencyConversion() {
           <div className="form-currency-ratio">
             <label htmlFor="market-price" className="labels">
               Market Price
-              <Tooltip image="/MarketPrices.png" height="100px" width="550px" />
+              <Tooltip
+                image="/MarketPrices.png"
+                height="100px"
+                width="550px"
+                alt="Market-price-help"
+              />
             </label>
             <input
               type="number"
@@ -95,7 +105,12 @@ export default function CurrencyConversion() {
           <div className="form-currency-ratio">
             <label htmlFor="crystal-price" className="labels">
               Crystal Price
-              <Tooltip image="/CrystalPrice.png" height="230px" width="550px" />
+              <Tooltip
+                image="/CrystalPrice.png"
+                height="230px"
+                width="550px"
+                alt="crystal-help"
+              />
             </label>
             <input
               type="number"

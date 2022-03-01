@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/styles.css";
 
 export default function Tooltip(props) {
-  const { image, height, width } = props;
+  const { image, height, width, alt } = props;
   return (
     <sup>
       <Popup
@@ -14,12 +14,7 @@ export default function Tooltip(props) {
         }
         position="right center"
       >
-        <img
-          src={image}
-          height={height}
-          width={width}
-          alt="whats-this-helper"
-        />
+        <img src={image} height={height} width={width} alt={alt} />
       </Popup>
     </sup>
   );
