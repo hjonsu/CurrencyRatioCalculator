@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&family=Noto+Serif+Display:ital,wght@0,200;1,200&display=swap');
+
+
+.form-currency-ratio {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 125px!important;
+}
+
+.root {
+  display: flex;
+  margin-top: 75px;
+  align-items: center;
+  justify-content: center;
+}
+
+.labels {
+  padding-bottom: 1em;
+}
+
+.input-fields {
+  padding: 5px!important;
+  height: 20px !important;
+  width: 50px;
+  text-align: center;
+}
+
+.conversion-results {
+  margin-top: "2em";
+  background: "#D1DAEE";
+  padding: "20px";
+  border-radius: "5px";
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
