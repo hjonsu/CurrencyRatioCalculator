@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/styles.css";
 
 export default function Tooltip(props) {
-  const { image, height, width, alt } = props;
+  const { image, height, width } = props;
   return (
     <sup>
       <Popup
