@@ -129,14 +129,15 @@ export default function CurrencyConversion() {
           </div>
           <div className="conversion-results">
             <strong>
-              {crystalConverter(
+              Pick the lower number!
+              {/* {crystalConverter(
                 conversionRatio(currencyCheck.goldToCrystal),
                 marketRatio(
                   currencyCheck.marketPrice,
                   currencyCheck.crystalPrice,
                   currencyCheck.itemQuantity
                 )
-              )}
+              )} */}
             </strong>
             <br />
             Gold to Crystal Ratio:
