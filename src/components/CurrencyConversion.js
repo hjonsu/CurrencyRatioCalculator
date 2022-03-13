@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import crystalConverter from "../helpers/crystalToGoldRatios";
+// import crystalConverter from "../helpers/crystalToGoldRatios";
 import conversionRatio from "../helpers/conversionRatio";
 import marketRatio from "../helpers/marketRatio";
 import Tooltip from "./ToolTip";
