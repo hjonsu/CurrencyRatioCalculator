@@ -1,1 +1,1 @@
-WIP built for Lost Ark calculations
+Tool build to calculate optimal currency Exchange for the game Lost Ark
